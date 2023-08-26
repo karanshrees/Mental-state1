@@ -1,0 +1,240 @@
+.wholecontainer,.wholecontainer1,.wholecontainer3,.wholecontainer4,.wholecontainer5,.header
+{
+    display: flex;
+    flex-direction: row;
+   
+
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+p,.Read1{
+    font-family:rhino, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;    
+}
+.paragraph,.link{
+    font-weight:bold;
+    padding-left: 40px;
+    padding-top: 27px;
+}
+.paragraph{
+    font-size: 27.096px;
+}
+
+.link{
+    margin-top: 180px;
+    font-family: arial;
+}
+
+.imagecontainer{
+    margin-bottom: 0px;
+}
+
+
+.imagecontainer,.women{
+    width: 749.5px;
+    height: 580.975px;
+    object-fit: cover;
+}
+
+.paragraphcontainer{
+    color: #d26459;
+    background-color: #ffe6d8;
+    height: 580.975px;
+    flex: 1;
+
+}
+
+
+/* 2nd container*/
+.paragrapghcontainer1{
+    color:white;
+    background-color:rgb(255, 132, 124);
+    height: 625.462px;
+    width: 749.2px;
+    position: relative;
+    right: 0px;
+   
+}
+.Flower{
+    position: absolute;
+    bottom: 6px;
+    right: 9px;
+}
+
+
+.paragraph112{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 60px;
+}
+
+
+.karan{
+    height: 625.462px;
+   width: 100%;
+    object-fit: cover;
+}
+.paragraph11,.paragraph1{
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 0px;
+    padding-left: 60px;
+}
+
+.paragraph1{ 
+    padding-top: 60px;   
+}
+
+.Read{
+    padding-left: 60px;
+    margin-top: 250px;
+}
+
+
+
+.imagecontainer1{
+    flex:1;
+    width: 715.975px;
+    
+}
+
+
+
+/* link tags*/
+
+ .Read a{
+    color: white;
+    font-size: 20px;
+}
+.call a{
+    color: white;
+    font-size: 22px;
+}
+.link a{
+    color: #d26459;
+    font-size: 22px;
+}
+
+.therapist a{
+    color: white;
+    font-size: 22px;
+
+}
+
+
+
+.link a,.Read a ,.therapist a,.call a{
+    
+    font-weight: bold;  
+    position: relative;
+    text-decoration: none;
+}
+
+
+
+.Read a:before{
+    background-color:#FFFF;
+}
+.link a:before{
+    background-color:#d26459; ;
+}
+.therapist a:before,.call a:before{
+    background-color: white;
+}
+
+
+ .Read a:before ,.link a:before,.therapist a:before,.call a:before{
+    content:" " ;
+    position: absolute;
+    bottom: -2px;
+    height: 3px;
+    width: 0px;
+    transition: width 0.3s ease;
+}
+
+.Read a:hover:before ,.link a:hover:before ,.therapist a:hover:before{
+    width: 100%;
+}
+
+.call a:hover:before{
+    width: 80%;
+}
+
+
+.number1{
+    color: rgb(223, 117, 117);
+    font-size: 50px ;
+    font-weight: bolder;
+}
+.number2{
+    color: rgb(223, 117, 117);
+    font-size: 50px ;
+    font-weight: bolder;
+}
+.number3{
+    color: rgb(150, 207, 234);
+    font-size: 50px ;
+    font-weight: bolder;
+}
+.number4{
+    color: rgb(147, 205, 186);
+    font-size: 50px ; 
+    font-weight: bolder;
+}
+
+
+.programs ul .list1 div ,.Add1{
+    color: rgb(223, 117, 117);
+    font-size: 28px ;
+    font-weight: bolder;
+}
+
+.programs ul .list2 div,.Add2{
+    color: rgb(255, 192, 90);
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.programs ul .list3 div,.Add3{
+    color: rgb(150, 207, 234);
+    font-size: 28px;
+    font-weight: bolder;
+}
+.programs ul .list4 div,.Add4{
+    color:rgb(147, 205, 186);
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.programs .Add1, .programs.Add3,.programs.Add4 ,.programs .Add2{
+    font-weight: bolder;
+}
+
+.programs ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.impact h2{
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    line-height: 55px;
+    text-align: center;
+    padding-top: 600px;
+}
+
+
+
+.helppartner{
+    flex: 1;
+    background-color: rgb(244, 231, 221);
+}

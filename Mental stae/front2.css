@@ -1,0 +1,208 @@
+body{
+    background-image: url("womenlaughing1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.chair{
+    height: 612.45px;
+   
+}
+.chairdiv{
+    margin-bottom: -4px;
+}
+
+
+.Expert{
+    background-color:rgb(147, 205, 186) ;
+    flex: 1;
+    height: 612.45px;
+
+    
+  
+}
+
+.Speak{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    padding: 55px 0px 0px 35px;
+}
+.therapist{
+    margin-top: 398px;
+    padding-left: 35px;
+}
+.notalone{
+    background-color: #ff847c;
+    width: 748.5px;
+    color: white;
+   
+}
+.helppartner{
+    position: relative;
+    color: rgb(255, 110, 99);
+    padding-left: 69px;
+    padding-bottom: 43px;
+    padding-right: 60px;
+}
+.telephone{
+    position: absolute;
+    bottom: 5px;
+    right: 7px;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+.p1,.p2,.p3,.p4{
+    margin-top: 39px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: bolder;
+}
+.p4{
+    font-size: 28px;
+}
+
+.Mental{
+    color:rgb(255, 132, 124);
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 70px 45px 60px 45px;
+}
+
+.help,.you{
+    padding-left: 43px;
+}
+
+.help{
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.you{
+    font-weight: bold;
+    font-size: 23px;
+}
+.call{
+    margin-top: 270px;
+}
+.wholecontainer4{
+    background-color: white;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    height: 143px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    top: 38px;
+    bottom:0px;
+    right: 699px;
+}
+.morethan{
+    height: 411px;
+    width:342px;
+    object-fit: cover;
+}
+.wholecontainer5,.wholecontainer6,.wholecontainer7,.wholecontainer8{
+    background-color: white;
+}
+.wholecontainer6{
+    color: rgb(81, 153, 183) ;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 55px;
+    text-decoration: solid;
+    padding: 60px 45px 60px 45px;    
+}
+.wholecontainer7{
+    width: 6440px;
+    height: 290px;
+    animation: scrolling 10s linear infinite; /*scroll type, time,timingfunc,animation duration count*/
+    overflow: hidden;
+}
+
+.wholecontainer7:before,.wholecontainer7:after{
+    position: absolute;
+    top: 0;
+    width: 10rem;
+    height: 100%;
+    content:'';
+    z-index: 1;
+}
+
+.wholecontainer7:before{
+    left: 0;
+    background:linear-gradient(to right ,#111 0%, transparent 100%) ;
+}
+.wholecontainer7:after{
+    right: 0;
+    background:linear-gradient(to right ,#111  0%, transparent 100%) ;
+}
+.organization-images{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.organization-images img{
+    width: 292px;
+    object-fit: cover;
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding-bottom: 70px;
+   
+}
+
+@keyframes scrolling{
+    0%{transform: translateX(0vw);}
+    100%{transform:translateX(-108vw);}
+}
+
+
+.header{
+    background-color: white;
+    height: 100px;
+    justify-content: space-between;
+}
+.left-section{
+    background-color: pink;
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+.middle-section{
+    background-color: blue;
+}
+.right-section{
+    background-color: green;
+}
+.Mslogo{
+    height: 100%;
+}
+
+.wholecontainer8{
+   
+   height: 200px;
+   display: flex;
+   
+}
+.mail{
+    background-color:rgb(215, 98, 91) ;
+    width: 800.8px;
+    display: flex;
+}
+
+.donate{
+    background-color: rgb(255, 230, 216);
+    flex: 1;
+}
+
+.join{
+    color: white;
+    margin-right: 23px;
+}

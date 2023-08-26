@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .InputElement{
+            position: relative;
+            display: block;
+          
+        }
+        .InputElement1,.InputElement2{
+            position: relative;
+            margin-right: 20px;
+        }
+    
+      
+        .firstname{
+            position: absolute;
+            top: 11px;
+            left: 6px;
+            background-color: white;
+            color: #28508c;
+            font-size: 15px;
+            font-weight: bold;
+            opacity: 0.99;
+           
+        }
+
+        .InputElement1 input,.InputElement2 input{
+            margin-top: 20px;
+            padding: 12px 16px 12px 16px;
+            outline-color: rgba(40, 112, 140, 0.845);
+            
+            
+        }
+        
+
+        .This,.This1{
+            color:rgb(210, 100, 89) ;
+            font-size: 12px;
+            list-style: none;
+            font-weight: bold;
+          
+        }
+        .flex{
+            display: flex;
+        }
+
+        .unorder{
+            padding-left:0px;
+        }
+
+        .This1{
+            margin-right: 100px;
+        }
+        .error{
+            margin-top: -10px;
+        }
+    </style>
+</head>
+<body>
+   <div class="wholediv">
+    <div class="heading">
+        <h1>CREATE <br> AN ACCOUNT</h1>
+    </div>
+    <p>If you already have an account <a href="#">Login</a></p>
+    <form action="/resources" method="post">
+        <div class="InputElement">
+            <select name="Identity" id="Identity">
+                <option value="nepalicitizen">I am Nepali citizen/NRN.</option>
+                <option value="nepalicitizen">We are an Organization registered in Nepali</option>
+                <option value="nepalicitizen">I am  a Foreign National</option>
+                <option value="nepalicitizen">We are an Organization registered outside Nepal.</option>
+            </select>
+        </div>
+
+
+        <div class="flex">
+            <div class="InputElement1">
+                <div class="firstname">First Name*</div>
+                <input type="text" name="First name">
+            </div>
+            <div class="InputElement2">
+                <div class="firstname"> Last Name*</div>
+                <input type="text" name="First name">
+            </div>
+
+            </div>
+            <div class="flex">
+                <div class="error">
+                        <ul class="unorder">
+                            <li class="This1">This value is required.</li>
+                        </ul>
+                </div>
+        
+               
+                <div class="error">
+                        <ul class="unorder">
+                            <li class="This">This value is required.</li>
+                        </ul>
+                </div>
+            </div>
+            
+     
+   
+
+         <div class="flex">
+            <div class="InputElement1">
+                <div class="firstname"> Email ID*</div>
+                <input type="text" name="First name">
+            </div>
+
+
+            <div class="InputElement2">
+                <div class="firstname"> Password*</div>
+                <input type="text" name="First name">
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="error">
+                    <ul class="unorder">
+                        <li class="This1">This value is required.</li>
+                    </ul>
+            </div>
+    
+    
+         
+            <div class="error">
+                <span id="firstnameerror">
+                    <ul class="unorder">
+                        <li class="This">This value is required.</li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+        
+        <div>
+            Please select the right answer
+        </div>
+
+  
+
+
+  
+    </form>
+   </div>
+    
+</body>
+</html>
